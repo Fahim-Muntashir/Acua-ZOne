@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply font-libre;
+    }
+
+    h2 {
+        @apply text-xl;
+    }
+
+    input {
+        @apply p-2 border rounded-md border-blue-100 my-1 text-black transition-all;
+    }
+
+    input::placeholder {
+        @apply tracking-wide text-black;
+    }
+}
