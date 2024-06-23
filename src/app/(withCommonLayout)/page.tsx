@@ -1,4 +1,5 @@
 
+import Blog from "@/components/Ui/HomePage/Blog/Blog";
 import Category from "@/components/Ui/HomePage/Category/Category";
 import Contact from "@/components/Ui/HomePage/Contact/Contact";
 import HeroSection from "@/components/Ui/HomePage/HeroSection/HeroSection";
@@ -15,6 +16,7 @@ const HomePage = () => {
       <Mission></Mission>
       <Category></Category>
       <Contact></Contact>
+      <Blog></Blog>
     </>
   );
 };
